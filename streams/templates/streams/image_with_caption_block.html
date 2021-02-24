@@ -1,0 +1,17 @@
+{% load wagtailimages_tags %}
+
+<div class="container mb-sm-2 mt-sm-2">
+    <div class="row">
+        <div class="col-lg-12">        
+            {% image self.image width-500 as img %}
+            {% if self.caption %}
+                <figure>
+                    <img src="{{ img.url }}" alt="{{ img.url }}" class="img-fluid mx-auto d-block">
+                    <figcaption>{{ self.caption }}</figcaption>
+                </figure>
+            {% else %}
+                <img src="{{ img.url }}" alt="{{ img.url }}" class="img-fluid mx-auto d-block">
+            {% endif %}
+        </div>
+    </div>
+</div>
