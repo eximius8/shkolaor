@@ -1,25 +1,24 @@
 {% load static %}
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<header>  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">   
     <div class="container">
-      <a class="navbar-brand">
-        <img class="mr-sm-2" src="{% static 'logo.png' %}" alt="" height="100">
-      </a>  
+      <div>
+        <a><img src="{% static 'logo.png' %}" alt="logo" height="60"></a>
+      </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-    
+      </button>    
       <div class="collapse navbar-collapse my-2 my-lg-0" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">О школе</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Спортсменам</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Родителям
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
@@ -27,20 +26,10 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
+          </li>          
         </ul>
-      </div>
+      </div>      
     </div>
   </nav>
-
-
-
-
-
-
-
-
+  <div class="footer-hr" ></div>
 </header>

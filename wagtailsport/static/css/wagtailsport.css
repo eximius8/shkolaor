@@ -29,3 +29,27 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+.btn-primary {
+  background-color: #de2f1e;
+  color: #ffffff;
+  border: 1px solid #de2f1e;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #0065ae;
+  border-color: #0065ae;
+}
+
+
+.footer-hr {
+  /* These are browser hacks so the horizontal line looks the same in all browsers
+  (cross-browser) */
+  border-color: #de2f1e;
+  background-color: #de2f1e;
+  color: #de2f1e;
+  border: 5px solid #de2f1e;
+  display: block;
+  z-index: auto;
+  }
